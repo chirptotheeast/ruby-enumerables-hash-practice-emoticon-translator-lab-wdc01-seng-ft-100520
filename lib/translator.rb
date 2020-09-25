@@ -7,7 +7,7 @@ def load_library(emoticon_file)
   emoticon_library= YAML.load_file('./lib/emoticons.yml')
 # binding.pry
   
-  emoticons = {"get_meaning" => {"english"}, {"japanese"}}
+  emoticons = {"get_meaning" => {"english"} {"japanese"}}
   
   emoticon_library.each do |meaning, describe|
     eng, jan =  describe
