@@ -11,7 +11,7 @@ def load_library(emoticon_file)
   
   emoticon_library.each do |meaning, describe|
     eng, jan =  describe
-     emoticons["get_meaning"][jan] = meaning
+     emoticons["get_meaning"][jan] = meaning,
      emoticons["get_emoticon"][eng] = jan
      binding.pry
   end
