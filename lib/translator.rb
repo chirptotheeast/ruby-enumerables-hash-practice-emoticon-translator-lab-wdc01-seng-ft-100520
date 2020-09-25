@@ -7,7 +7,7 @@ def load_library(emoticon_file)
   final_hash = {}
   YAML.load_file(emoticon_file)
   
-  binding.pry
+  
   final_hash
 end
 
