@@ -6,7 +6,7 @@ def load_library(path)
   # code goes here
   final_hash = {}
   YAML.load_file(path).each do |key, value|
-    binding.protect_from_forgery
+    binding.pry
   end
   final_hash
 end
