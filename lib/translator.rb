@@ -9,20 +9,16 @@ def load_library(path)
     final_hash[key] = {}
     final_hash[key][:english] = value[0]
     final_hash[key][:japanese] = value[1]
-    #binding.pry
   end
   final_hash
 end
 
-
-
-
+def get_english_meaning(path, emoticon)
+  # code goes here
+end
 
 
 def get_japanese_emoticon
   # code goes here
 end
 
-def get_english_meaning
-  # code goes here
-end
