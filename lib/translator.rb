@@ -2,13 +2,11 @@
 require 'yaml'
 require 'pry'
 
-def load_library(emoticon_file)
+def load_library(path)
   # code goes here
   final_hash = {}
-  YAML.load_file(emoticon_file).each do |key, value|
-  binding.path
-  
-  
+  YAML.load_file(path).each do |key, value|
+    binding.path
   end
   final_hash
 end
